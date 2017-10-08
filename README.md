@@ -1,1 +1,1 @@
-# MVHSNewTab
+# methodize-chrome
