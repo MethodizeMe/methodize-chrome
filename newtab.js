@@ -50,13 +50,15 @@ class TimeBlock {
 }
 
 function openCloseNav() {
-    if (document.getElementById("mySidenav").style.width == "250px") {
+    if (document.getElementById("mySidenav").style.width == "255px") {
       document.getElementById("mySidenav").style.width = "0px";
       document.getElementById("mySidenav").style.paddingRight = "0px";
+      document.getElementById("time").style.left = "50%";
       document.getElementById("menuButton").style.transform = "translate(16px, 16px) rotate(0deg)";
     } else {
-      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("mySidenav").style.width = "255px";
       document.getElementById("mySidenav").style.paddingRight = "110px";
+      document.getElementById("time").style.left = "calc(50% + 200px)";
       document.getElementById("menuButton").style.transform = "translate(16px, 16px) rotate(270deg)";
     }
 }
